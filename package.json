@@ -1,0 +1,12 @@
+{
+  "name": "kaiser-family-fantasy-smx",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local Kaiser Family Fantasy SMX league website with project-folder data storage",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

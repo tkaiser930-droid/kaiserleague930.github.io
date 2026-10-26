@@ -42,3 +42,15 @@
 
 /* Race-day roster lock notice */
 .lock-notice{border-color:#b94a55;background:linear-gradient(145deg,#321b24,#1a151d);box-shadow:0 0 0 1px #b94a5533}.lock-notice h2{color:#ff8c96}.lock-notice p{color:#f0d7dc}.lock-notice ul{margin:8px 0 0;padding-left:22px}.lock-notice li{margin:5px 0;color:#fff}
+
+/* Local project database status and backup page */
+.storage-banner{margin:0;padding:8px 4vw;font-size:11px;font-weight:700;letter-spacing:.02em;border-bottom:1px solid #ffffff18}
+.storage-banner.info{background:#202331;color:#e1e4ed}
+.storage-banner.saving{background:#2d2a1b;color:#f2d780}
+.storage-banner.good{background:#14291f;color:#91e2b6}
+.storage-banner.warn{background:#322a18;color:#f4d388}
+.storage-banner.error{background:#3a1b22;color:#ffb4bc}
+.storage-detail{padding:12px 14px;border-radius:8px;background:#202331;border:1px solid var(--line);font-weight:700}
+.storage-detail.good{color:#91e2b6;border-color:#2f8f60}
+.storage-detail.warn{color:#f4d388;border-color:#8b6b2c}
+.storage-detail.error{color:#ffb4bc;border-color:#b94a55}
